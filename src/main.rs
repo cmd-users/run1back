@@ -7,7 +7,7 @@ use rocket::response::content::RawHtml;
 fn index() -> RawHtml<&'static str> {
     RawHtml(r#"
         <div>
-            Hello, world!"
+            Hello, world!
         </div>
         <a href="test">Go to /test</a>
     "#)
