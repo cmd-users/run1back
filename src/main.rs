@@ -4,14 +4,18 @@ use rocket::*;
 use rocket::response::content::RawHtml;
 
 #[get("/")]
-fn index() -> &'static str {
-    "Hello, world!"
+fn index() -> RawHtml<&'static str> {
+    RawHtml(r#"
+        <div>
+            Hello, world!"
+        </div>
+    "#)
 }
 
 #[get("/test")]
 fn test() -> RawHtml<&'static str> {
     RawHtml(r#"
-        <div style=\"background-color: red\">
+        <div style="background-color: red">
             test
         </div>
     "#)
