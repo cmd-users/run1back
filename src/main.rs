@@ -12,7 +12,7 @@ fn index() -> RawHtml<&'static str> {
     "#)
 }
 
-#[get("/test")]
+#[get("/")]
 fn test() -> RawHtml<&'static str> {
     RawHtml(r#"
         <div style="background-color: red">
