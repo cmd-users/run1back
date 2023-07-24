@@ -2,7 +2,7 @@
 
 Backend for the first run of our training for Hackathon 2023.  
 
-# Requirements
+## Requirements
 
 - [Rust](https://www.rust-lang.org/) (nightly)
 - Docker
