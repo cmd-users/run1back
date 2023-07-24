@@ -9,6 +9,7 @@ fn index() -> RawHtml<&'static str> {
         <div>
             Hello, world!"
         </div>
+        <a href="test">Go to /test</a>
     "#)
 }
 
@@ -18,6 +19,7 @@ fn test() -> RawHtml<&'static str> {
         <div style="background-color: red">
             test
         </div>
+        <a href="/">Go to home</a>
     "#)
 } 
 
