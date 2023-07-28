@@ -133,6 +133,7 @@ name = "cmdeuses"
 version = "0.1.0"
 dependencies = [
  "diesel",
+ "dotenv",
  "dotenvy",
  "rocket",
 ]
@@ -214,6 +215,12 @@ checksum = "fc5557efc453706fed5e4fa85006fe9817c224c3f480a34c7e5959fd700921c5"
 dependencies = [
  "syn",
 ]
+
+[[package]]
+name = "dotenv"
+version = "0.15.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "77c90badedccf4105eca100756a0b1289e191f6fcbdadd3cee1d2f614f97da8f"
 
 [[package]]
 name = "dotenvy"

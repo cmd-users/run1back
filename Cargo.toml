@@ -9,5 +9,6 @@ edition = "2021"
 rocket = "=0.5.0-rc.3"
 diesel = { version = "2.1.0", features = ["postgres"] }
 dotenvy = "0.15.7"
+dotenv = "0.15.0"
 
 [dev-dependencies]
