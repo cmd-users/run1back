@@ -27,7 +27,7 @@ cargo install diesel_cli --no-default-features --features postgres
 
 ## Run
 
-- 1. Run the postgres database with docker-compose  
+- 1. ***While Docker is running*** Run the postgres database with docker-compose  
 ```command
 docker-compose up -d postgres
 ```
