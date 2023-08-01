@@ -1,0 +1,45 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+#logo {
+    position:absolute;
+    top: 10%;
+    left: 50%;
+
+    width: 75vw;
+    height: 75vh;
+}
+
+#email{
+    top: 30%;
+    left: 20%;
+    position: absolute;
+
+    height:3vh;
+    width: 20vw;
+    border: radius 100px;
+}
+
+#password{ 
+    top: 40%;
+    left: 17%;
+    position: absolute;
+
+    height:3vh;
+    width: 20vw;
+    border: radius 100px;
+}
+
+
+footer{
+    position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     text-align: center;
+}
